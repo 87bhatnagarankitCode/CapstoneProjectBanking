@@ -128,6 +128,8 @@ At least **12 documents** (2–5 sentences each) cover:
 ---
 
 ## 📝 Notes
+
+![HFDC Agent Note](HFDCServer.png)
 - All examples are **fabricated**; no real customer data is used.
 - MOCK_LLM mode ensures reproducibility without API keys.
 - Groq or other LLM APIs may be optionally wired in, but grading requires MOCK_LLM compliance.
