@@ -22,7 +22,7 @@ The system integrates:
 - Ensure the agent is **safe, resilient, and production‑ready**.
 - Deploy behind a **FastAPI backend** with structured logging and evaluation.
 
-![HFDC Agent Overview](Bank.png)
+![HFDC Agent Overview](../images/Bank.png)
 ---
 
 ## 🏦 HFDC Loan Categories
@@ -59,7 +59,7 @@ At least **12 documents** (2–5 sentences each) cover:
 - Credit score impact factors
 - Joint account rules
 - NRI account eligibility
-![HFDC Agent Overview](Manager.png)
+![HFDC Agent Overview](../images/Manager.png)
 ---
 
 ## 🧩 System Architecture
@@ -129,7 +129,7 @@ At least **12 documents** (2–5 sentences each) cover:
 
 ## 📝 Notes
 
-![HFDC Agent Note](HFDCServer.png)
+![HFDC Agent Note](../images/HFDCServer.png)
 - All examples are **fabricated**; no real customer data is used.
 - MOCK_LLM mode ensures reproducibility without API keys.
 - Groq or other LLM APIs may be optionally wired in, but grading requires MOCK_LLM compliance.
