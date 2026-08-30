@@ -1,0 +1,51 @@
+record_id,category,status,loan_amount_inr,days_since_created,flagged_for_fraud_review
+c1fd79b53969403,Personal Loan,Submitted,2357113,7,False
+5ceb565e39084c1,Personal Loan,Disbursed,779295,18,False
+a19cc980dead412,Personal Loan,Submitted,1884068,7,False
+c27ac9d0e9cc47f,Personal Loan,Disbursed,1717971,22,False
+e6fbaacdb4cc43d,Business Loan,Rejected,1899189,14,False
+3280b2306585478,Personal Loan,Under Review,3595146,10,False
+4bafa168ca65472,Home Loan,Approved,907401,2,False
+cd3c58fddf3940c,Auto Loan,Approved,2268961,25,True
+080af2847cc04d6,Education Loan,Disbursed,1097117,29,False
+f58f393684b340d,Business Loan,Approved,3083614,18,True
+95c41cd116294bc,Personal Loan,Submitted,1961749,24,False
+8e699649e428455,Personal Loan,Under Review,897261,12,False
+78ccc0b51dbe40b,Auto Loan,Under Review,3155303,11,False
+9dba07e2c5204aa,Auto Loan,Submitted,1485615,17,False
+b70e0f1815cd401,Home Loan,Rejected,3233102,8,False
+47e5a2d5f964466,Business Loan,Under Review,2770280,26,False
+9af10823b473444,Personal Loan,Under Review,319276,25,False
+d81a49a26c3f4bf,Auto Loan,Submitted,1819852,29,False
+f2708a7508f04c4,Auto Loan,Under Review,4237855,12,False
+ca6a62cd23194df,Education Loan,Under Review,2271975,4,False
+511c43268a734ad,Business Loan,Disbursed,2254036,23,False
+eced00de848c4cc,Business Loan,Rejected,3086646,7,False
+f0879e1d67924d2,Home Loan,Disbursed,4189910,2,False
+c3cbc441d9624c6,Personal Loan,Under Review,1392026,25,False
+9cd4fa2f69144df,Business Loan,Submitted,3277662,12,False
+b588d0b39d1c4d8,Education Loan,Disbursed,2159014,17,False
+de81c6be731a4d0,Personal Loan,Submitted,4554433,24,False
+fe58b8415e9a4f4,Auto Loan,Submitted,2512057,13,True
+c8cffb1de89f450,Personal Loan,Approved,4249220,24,True
+0f64d5f099004ac,Personal Loan,Approved,4308584,19,True
+a81f831582c3490,Auto Loan,Under Review,4574639,30,False
+c227a4fba2d04e2,Business Loan,Submitted,2769218,15,True
+7e89d5ff8dde457,Auto Loan,Approved,2058671,1,False
+a1d7aacfabde4b3,Business Loan,Submitted,768513,23,False
+d9fb3890e1fd443,Personal Loan,Disbursed,1104955,4,False
+28452ae2c240471,Business Loan,Under Review,2273456,16,False
+f926d2a02685498,Education Loan,Under Review,4573943,24,False
+8179cfbded2f429,Home Loan,Approved,3396989,21,False
+c69d7fdf552747f,Education Loan,Disbursed,3837340,3,False
+738cc16d9dae4b7,Personal Loan,Approved,226448,18,False
+b16d7aa09cac438,Business Loan,Under Review,110321,2,False
+acdbbc255888474,Personal Loan,Under Review,615394,28,True
+e1c51b4e6fcb44c,Auto Loan,Submitted,4363054,7,False
+4d3a0f49cd5e40b,Education Loan,Under Review,4573422,4,False
+b1633dbda370450,Business Loan,Disbursed,4015051,7,False
+6e2130d8dc984c8,Education Loan,Under Review,841262,3,False
+21491cb9a9444de,Auto Loan,Rejected,3498575,14,False
+91f6143b296b4f1,Personal Loan,Submitted,558455,12,False
+26f8947416a34ef,Personal Loan,Under Review,1657174,6,False
+94afeca4a9c1413,Home Loan,Rejected,1589209,8,False
