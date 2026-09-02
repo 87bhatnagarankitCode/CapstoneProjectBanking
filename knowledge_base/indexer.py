@@ -31,11 +31,12 @@ def build_policy_index():
         chunks = text_splitter.split_documents(documents)
         
         # 3. Injecting Enterprise-grade Metadata inside Chunks
+        chunk_ids = []
         for idx, chunk in enumerate(chunks):
             source_path = chunk.metadata.get("source", "")
             file_name = os.path.basename(source_path)
             category = "Retail Banking Guidelines"
-            reg_body = "HFDC-Retail-Operations-Committee"
+            reg_body = "Cred-Retail-Operations-Committee"
             
             # File name analytics se category decide karna for examiner view
             
@@ -56,27 +57,27 @@ def build_policy_index():
                 "source_file": file_name,
                 "policy_category": category,
                 "last_updated": "Compliance-Q3-2026-v1.0",
-                "chunk_id": f"hfdc_sys_chunk_{idx:03d}",
+                "chunk_id": f"cred_sys_chunk_{idx:03d}",
                 "access_level": "Level-1-Retail-Support-Desk",
                 "regulatory_body": reg_body,
                 "token_size_approx": approx_words,
                 "is_active_policy": True
             })
             
-            
+            chunk_ids.append(f"cred_sys_chunk_{idx:03d}")
 
         log.info(f"Metadata processing complete. Total {len(chunks)} chunks created.")
         
         # 4. Save into local ChromaClient (Uses standard built-in local embedding automatically!)
         log.info(f"Persisting vector mapping into secure local perimeter: {CHROMA_DIR}")
         
-        vector_store = Chroma.from_documents(
-            documents=chunks,
-            embedding=None,  # No OpenAI key! Automatically falls back to free local sentence-transformers architecture inside langchain-chroma
+        vector_store = Chroma(
             persist_directory=CHROMA_DIR,
-            collection_name="hfdc_internal_policies"
+            collection_name="cred_internal_policies",
+            embedding_function=None
         )
-        
+        vector_store.add_documents(documents=chunks, ids=chunk_ids)
+  
         log.info(" SUCCESS: Enterprise ChromaDB local cache memory built successfully!")
         chunks_from_db = vector_store.get()
         for idx, meta in enumerate(chunks_from_db['metadatas']):
