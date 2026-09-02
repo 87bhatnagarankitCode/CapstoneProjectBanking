@@ -4,11 +4,11 @@ import os
 
 class InitLogger:
     @staticmethod
-    def get_logger(name="HFDC_AGENT"):
+    def get_logger(name="Cred_FinTech_Agent"):
         os.makedirs("logs", exist_ok=True)
 
         handler = TimedRotatingFileHandler(
-            "logs/hfdc_agent.log",
+            "logs/Cred_FinTech_AgentS.log",
             when="midnight",
             interval=1,
             backupCount=30,
