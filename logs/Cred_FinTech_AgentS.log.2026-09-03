@@ -1,0 +1,66 @@
+2026-09-03 00:37:00.331 | INFO | indexer |  build_policy_index | RAG: ChromaDB local policy indexing starting...
+2026-09-03 00:37:00.335 | INFO | indexer |  build_policy_index | Successfully loaded 2 policy files from documents folder.
+2026-09-03 00:37:00.337 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID0 #### Data# HFDC BANK - REPAYMENT COMPLIANCE, BOUNCE PENALTY
+2026-09-03 00:37:00.338 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID1 #### Data## SECTION 1: AMORTIZATION TIMELINES & NACH MANDAT
+2026-09-03 00:37:00.339 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID2 #### Data* **Grace Period Immunity:** There is **NO grace p
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID3 #### Data## SECTION 2: NON-PAYMENT PENAL ACTIONS & FISCAL D
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID4 #### Data* **Penal Interest Compounding:** Overdue balances
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID5 #### Data### 2.2 Credit Bureau (RBI Reporting Compliance)
+*
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID6 #### Data* **SMA/NPA Classification:** Delinquent assets ar
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID7 #### Data# HFDC BANK - CREDIT RISK AND RETAIL LENDING ELIGI
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID8 #### Data## SECTION 1: PERSONAL LOAN DISBURSEMENT MATRIX (U
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID9 #### Data### 1.2 Income Verification & FOIR (Fixed Income t
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID10 #### Data* **Tier-2/Tier-3 Locations:** Minimum net monthly
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID11 #### Data### 1.3 Bureau Score (CIBIL Verification)
+* **Prim
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID12 #### Data## SECTION 2: SECURED HOME LENDING FRAMEWORK
+### 2
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID13 #### Data### 2.2 Collateral Legal Clearances
+* The underlyi
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | Metadata processing complete. Total 14 chunks created.
+2026-09-03 00:37:00.354 | INFO | indexer |  build_policy_index | Persisting vector mapping into secure local perimeter: C:\Users\91916\Downloads\Masai\CapstoneProject\Cred_FinTech\knowledge_base\chroma_db
+2026-09-03 00:37:05.301 | INFO | indexer |  build_policy_index |  SUCCESS: Enterprise ChromaDB local cache memory built successfully!
+2026-09-03 00:37:05.301 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'0, 'chunkID'cred_sys_chunk_000 'Source'emi_rules.md
+2026-09-03 00:37:05.317 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'1, 'chunkID'cred_sys_chunk_001 'Source'emi_rules.md
+2026-09-03 00:37:05.317 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'2, 'chunkID'cred_sys_chunk_002 'Source'emi_rules.md
+2026-09-03 00:37:05.318 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'3, 'chunkID'cred_sys_chunk_003 'Source'emi_rules.md
+2026-09-03 00:37:05.318 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'4, 'chunkID'cred_sys_chunk_004 'Source'emi_rules.md
+2026-09-03 00:37:05.318 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'5, 'chunkID'cred_sys_chunk_005 'Source'emi_rules.md
+2026-09-03 00:37:05.318 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'6, 'chunkID'cred_sys_chunk_006 'Source'emi_rules.md
+2026-09-03 00:37:05.318 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'7, 'chunkID'cred_sys_chunk_007 'Source'loan_eligibility.md
+2026-09-03 00:37:05.322 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'8, 'chunkID'cred_sys_chunk_008 'Source'loan_eligibility.md
+2026-09-03 00:37:05.322 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'9, 'chunkID'cred_sys_chunk_009 'Source'loan_eligibility.md
+2026-09-03 00:37:05.322 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'10, 'chunkID'cred_sys_chunk_010 'Source'loan_eligibility.md
+2026-09-03 00:37:05.323 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'11, 'chunkID'cred_sys_chunk_011 'Source'loan_eligibility.md
+2026-09-03 00:37:05.323 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'12, 'chunkID'cred_sys_chunk_012 'Source'loan_eligibility.md
+2026-09-03 00:37:05.323 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'13, 'chunkID'cred_sys_chunk_013 'Source'loan_eligibility.md
+2026-09-03 00:37:05.323 | INFO | indexer |  build_policy_index |  SUCCESS: Enterprise ChromaDB local cache memory built successfully!

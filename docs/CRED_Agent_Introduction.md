@@ -1,7 +1,7 @@
-# HFDC Bank – Capstone Support Agent (LangGraph)
+# CRED Bank – Capstone Support Agent (LangGraph)
 
 ## 📌 Project Overview
-This capstone project builds a **production‑minded domain support agent** for **HFDC Bank**.  
+This capstone project builds a **production‑minded domain support agent** for **CRED Bank**.  
 The agent is designed to answer loan policy questions, check loan application statuses, and provide consistent, resilient support to staff and customers.
 
 The system integrates:
@@ -17,15 +17,15 @@ The system integrates:
 ---
 
 ## 🎯 Objectives
-- Provide **instant, consistent answers** to HFDC loan policy queries.
+- Provide **instant, consistent answers** to CRED loan policy queries.
 - Allow staff to **check loan application status** quickly and reliably.
 - Ensure the agent is **safe, resilient, and production‑ready**.
 - Deploy behind a **FastAPI backend** with structured logging and evaluation.
 
-![HFDC Agent Overview](../images/Bank.png)
+![CRED Agent Overview](../images/Cred_front_end.jpg)
 ---
 
-## 🏦 HFDC Loan Categories
+## 🏦 CRED Loan Categories
 The dataset covers multiple loan types:
 - Personal Loan  
 - Home Loan  
@@ -59,7 +59,7 @@ At least **12 documents** (2–5 sentences each) cover:
 - Credit score impact factors
 - Joint account rules
 - NRI account eligibility
-![HFDC Agent Overview](../images/Manager.png)
+![CRED Agent Overview](../images/CredManager.jpg)
 ---
 
 ## 🧩 System Architecture
@@ -129,7 +129,7 @@ At least **12 documents** (2–5 sentences each) cover:
 
 ## 📝 Notes
 
-![HFDC Agent Note](../images/HFDCServer.png)
+![CRED Agent Note](../images/CredWarehouse.jpg)
 - All examples are **fabricated**; no real customer data is used.
 - MOCK_LLM mode ensures reproducibility without API keys.
 - Groq or other LLM APIs may be optionally wired in, but grading requires MOCK_LLM compliance.
