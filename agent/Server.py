@@ -78,15 +78,16 @@ async def ask_agent(payload: AskRequest, x_thread_id: str = Header(default="defa
     log_entry = {
         "trace_id": trace_id,
         "thread_id": x_thread_id,
-        "timestamp": time.time(),
+        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
         "masked_input_query": sanitized_log_query,
         "resolved_intent": final_payload.get("resolved_intent"),
+        "agent_response_text": final_payload.get("response_text"),
         "latency_ms": execution_time_ms
     }
     
     # Write execution records as one distinct standalone JSON line
-    os.makedirs("data", exist_ok=True)
-    with open("data/server_logs.jsonl", "a", encoding="utf-8") as log_file:
+    os.makedirs("logs", exist_ok=True)
+    with open("logs/server_logs.jsonl", "a", encoding="utf-8") as log_file:
         log_file.write(json.dumps(log_entry) + "\n")
         
     # Return structured AskResponse formatting directly to the API channel

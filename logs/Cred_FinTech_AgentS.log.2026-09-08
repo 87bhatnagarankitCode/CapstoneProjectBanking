@@ -1,0 +1,62 @@
+2026-09-08 00:09:17.760 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:09:21.859 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:15:43.484 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:15:47.660 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:16:06.071 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:26:07.263 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:26:11.588 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:26:21.278 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:27:14.429 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-08 00:27:14.429 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-08 00:27:14.429 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-08 00:27:14.429 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-08 00:27:14.429 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-08 00:27:14.429 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-08 00:27:31.547 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-09-08 00:34:22.797 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:34:29.680 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:34:40.780 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:35:15.144 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:35:27.311 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:35:43.396 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-08 00:35:43.396 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-08 00:35:43.396 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-08 00:35:43.412 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-08 00:35:43.413 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-08 00:35:43.418 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-08 00:35:43.418 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-08 00:35:43.502 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-08 00:35:43.502 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-08 00:36:13.424 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-08 00:36:13.424 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-08 00:36:13.424 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-08 00:36:13.424 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-08 00:36:13.424 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-08 00:36:13.424 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-08 00:36:13.433 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-08 00:36:13.485 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-08 00:36:13.485 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-08 00:36:32.785 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-08 00:36:32.785 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-08 00:36:32.785 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-08 00:36:32.785 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-08 00:36:32.785 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-08 00:36:32.785 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-08 00:36:32.785 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-08 00:36:32.983 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-08 00:36:32.983 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-08 00:43:30.054 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:45:30.030 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:45:35.164 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:45:40.289 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:45:51.786 | INFO | viewchromadb |  <module> | Connecting to persistent database perimeter: C:\Users\91916\Downloads\Masai\CapstoneProject\Cred_FinTech\rag_core\knowledge_base\chroma_db
+2026-09-08 00:45:58.672 | INFO | viewchromadb |  <module> | Available collection names: []
+2026-09-08 00:45:58.673 | ERROR | viewchromadb |  <module> | Ledger storage is completely empty. Please run indexer.py first!
+2026-09-08 00:48:13.921 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:48:46.448 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:48:52.448 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:48:57.137 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:49:02.139 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:49:14.271 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-08 00:49:17.813 | INFO | viewchromadb |  <module> | Connecting to persistent database perimeter: C:\Users\91916\Downloads\Masai\CapstoneProject\Cred_FinTech\knowledge_base\chroma_db
+2026-09-08 00:49:19.282 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.

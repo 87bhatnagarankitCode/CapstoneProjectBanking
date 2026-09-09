@@ -1,0 +1,354 @@
+2026-09-09 22:33:44.013 | INFO | indexer |  build_policy_index | RAG: ChromaDB local policy indexing starting...
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | Successfully loaded 3 policy files from documents folder.
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID0 #### Data# CRED LENDING OPERATIONS - RETAIL LENDING ELIGIBI
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID1 #### Data## SECTION 1: CRED PERSONAL LOAN ELIGIBILITY CRITE
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID2 #### Data* **Income Verification & FOIR:** For Tier-1 metro
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID3 #### Data* **Credit Score Impact Factors & Bureau Guardrail
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID4 #### Data## SECTION 2: SECURED HOME LENDING FRAMEWORK
+* **L
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID5 #### Data* **Collateral Legal Clearances:** The underlying 
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID6 #### Data## SECTION 3: REPAYMENT COMPLIANCE & EMI CALCULATI
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID7 #### Data* **Prepayment-Penalty Rules:** Members wishing to
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID8 #### Data# CRED LENDING OPERATIONS - FEES, OPERATIONS, AND 
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID9 #### Data## SECTION 1: CREDIT CARD FEE STRUCTURE & MINIMUM 
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID10 #### Data* **Minimum Balance & Account Rules:** For CRED in
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID11 #### Data## SECTION 2: BOUNCE PENALTY, DRIFT, AND DEGRADATI
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID12 #### Data* **CIBIL Degradation Alert:** If a bounced EMI re
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID13 #### Data## SECTION 3: FRAUD-DISPUTE RESOLUTION & ACCOUNT-C
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID14 #### Data* **Account-Closure Process:** Members can initiat
+2026-09-09 22:33:44.045 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID15 #### Data# CRED LENDING OPERATIONS - SPECIALIZED PRODUCTS, 
+2026-09-09 22:33:44.060 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID16 #### Data## SECTION 1: BUSINESS, AUTO, AND EDUCATION LENDIN
+2026-09-09 22:33:44.060 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID17 #### Data* **Auto Loan Requirements:** Auto Loans cover up 
+2026-09-09 22:33:44.060 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID18 #### Data* **Education Loan Framework:** Education Loans re
+2026-09-09 22:33:44.060 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID19 #### Data## SECTION 2: KYC DOCUMENT REQUIREMENTS & STRUCTUR
+2026-09-09 22:33:44.060 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID20 #### Data* **Joint-Account Rules:** Joint-loan structures a
+2026-09-09 22:33:44.060 | INFO | indexer |  build_policy_index | before insert Chunks are as follows : 
+  ID21 #### Data* **NRI-Account Eligibility:** Non-Resident Indian
+2026-09-09 22:33:44.063 | INFO | indexer |  build_policy_index | Metadata processing complete. Total 22 chunks created.
+2026-09-09 22:33:44.063 | INFO | indexer |  build_policy_index | Persisting vector mapping into secure local perimeter: C:\Users\91916\Downloads\Masai\CapstoneProject\Cred_FinTech\knowledge_base\chroma_db
+2026-09-09 22:33:52.738 | INFO | indexer |  build_policy_index |  SUCCESS: Enterprise ChromaDB local cache memory built successfully!
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'0, 'chunkID'cred_sys_chunk_000 'Source'PolicyDoc1.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'1, 'chunkID'cred_sys_chunk_001 'Source'PolicyDoc1.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'2, 'chunkID'cred_sys_chunk_002 'Source'PolicyDoc1.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'3, 'chunkID'cred_sys_chunk_003 'Source'PolicyDoc1.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'4, 'chunkID'cred_sys_chunk_004 'Source'PolicyDoc1.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'5, 'chunkID'cred_sys_chunk_005 'Source'PolicyDoc1.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'6, 'chunkID'cred_sys_chunk_006 'Source'PolicyDoc1.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'7, 'chunkID'cred_sys_chunk_007 'Source'PolicyDoc1.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'8, 'chunkID'cred_sys_chunk_008 'Source'PolicyDoc2.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'9, 'chunkID'cred_sys_chunk_009 'Source'PolicyDoc2.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'10, 'chunkID'cred_sys_chunk_010 'Source'PolicyDoc2.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'11, 'chunkID'cred_sys_chunk_011 'Source'PolicyDoc2.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'12, 'chunkID'cred_sys_chunk_012 'Source'PolicyDoc2.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'13, 'chunkID'cred_sys_chunk_013 'Source'PolicyDoc2.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'14, 'chunkID'cred_sys_chunk_014 'Source'PolicyDoc2.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'15, 'chunkID'cred_sys_chunk_015 'Source'PolicyDoc3.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'16, 'chunkID'cred_sys_chunk_016 'Source'PolicyDoc3.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'17, 'chunkID'cred_sys_chunk_017 'Source'PolicyDoc3.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'18, 'chunkID'cred_sys_chunk_018 'Source'PolicyDoc3.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'19, 'chunkID'cred_sys_chunk_019 'Source'PolicyDoc3.md
+2026-09-09 22:33:52.763 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'20, 'chunkID'cred_sys_chunk_020 'Source'PolicyDoc3.md
+2026-09-09 22:33:52.776 | INFO | indexer |  build_policy_index |  Post Insert in Chroma DB 
+,'serial no.'21, 'chunkID'cred_sys_chunk_021 'Source'PolicyDoc3.md
+2026-09-09 22:33:52.778 | INFO | indexer |  build_policy_index |  SUCCESS: Enterprise ChromaDB local cache memory built successfully!
+2026-09-09 22:35:56.544 | INFO | viewchromadb |  <module> | Connecting to persistent database perimeter: C:\Users\91916\Downloads\Masai\CapstoneProject\Cred_FinTech\knowledge_base\chroma_db
+2026-09-09 22:35:56.834 | INFO | viewchromadb |  <module> | Available collection names: ['cred_internal_policies']
+2026-09-09 22:39:36.677 | INFO | viewchromadb |  <module> | Connecting to persistent database perimeter: C:\Users\91916\Downloads\Masai\CapstoneProject\Cred_FinTech\knowledge_base\chroma_db
+2026-09-09 22:39:37.007 | INFO | viewchromadb |  <module> | Available collection names: ['cred_internal_policies']
+2026-09-09 22:43:52.092 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-09 22:43:52.227 | INFO | evaluate_triad |  runRAGtriadEval | === Initializing Task 13: Bulk RAG Triad Evaluation Suite under MOCK_LLM ===
+2026-09-09 22:43:52.304 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:52.304 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:52.321 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:52.321 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:52.333 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:52.333 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:52.333 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:52.397 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:52.397 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:52.679 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:52.679 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:52.679 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:52.679 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:52.698 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:52.701 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:52.701 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:52.772 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:52.772 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:53.195 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:53.195 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:53.195 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:53.195 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:53.213 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:53.213 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:53.213 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:53.267 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:53.267 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:53.748 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:53.748 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:53.748 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:53.748 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:53.769 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:53.769 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:53.769 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:53.847 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:53.847 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:54.315 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:54.315 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:54.331 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:54.331 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:54.331 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:54.331 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:54.339 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:54.407 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:54.407 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:54.805 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:54.821 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:54.821 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:54.821 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:54.836 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:54.842 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:55.228 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:55.228 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:55.228 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:55.228 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:55.246 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:55.246 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:55.246 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:55.313 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:55.313 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:55.746 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:55.746 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:55.746 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:55.746 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:55.764 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:55.768 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:55.769 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:55.831 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:55.831 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:56.310 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:56.310 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:56.310 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:56.310 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:56.324 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:56.329 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:56.329 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:56.507 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:56.507 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:57.314 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:57.314 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:57.314 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:57.314 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:57.333 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:57.338 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:57.345 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:57.468 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:57.468 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:57.987 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:57.987 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:57.987 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:58.003 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:58.012 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:58.012 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:58.012 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:58.080 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:58.080 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:58.489 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:58.489 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:58.489 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:58.489 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:58.514 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 22:43:58.514 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 22:43:58.514 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 22:43:58.581 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:43:58.581 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:43:59.054 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:43:59.054 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:43:59.069 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:43:59.069 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:43:59.078 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-09 22:43:59.078 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1002
+2026-09-09 22:44:00.529 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-09 22:44:00.581 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:00.581 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:00.845 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:00.845 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:00.845 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:00.845 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:00.845 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-09 22:44:00.845 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1005
+2026-09-09 22:44:01.798 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-09 22:44:01.798 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:01.798 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:02.006 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:02.006 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:02.006 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:02.006 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:02.018 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-09 22:44:02.023 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1010
+2026-09-09 22:44:03.035 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-09 22:44:03.035 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:03.035 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:03.226 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:03.226 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:03.226 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:03.226 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:03.246 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:03.246 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:03.635 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:03.635 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:03.635 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:03.635 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:03.652 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:03.656 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:04.062 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:04.062 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:04.077 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:04.077 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:04.086 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-09 22:44:04.170 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:04.170 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:04.607 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:04.607 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:04.607 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:04.607 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:04.619 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:04.624 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:05.013 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:05.013 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:05.013 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:05.013 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:05.013 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:05.013 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:05.530 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:05.530 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:05.545 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:05.545 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:05.553 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:05.557 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:05.986 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:05.986 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:05.986 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:05.986 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:06.003 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:06.003 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:06.392 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:06.408 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:06.408 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:06.408 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:06.418 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:06.418 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:06.910 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:06.910 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:06.910 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:06.925 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:06.929 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:06.934 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:07.311 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:07.311 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:07.311 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:07.311 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:07.330 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:07.335 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:07.901 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:07.901 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:07.901 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:07.901 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:07.919 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:07.919 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:08.341 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 22:44:08.341 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 22:44:08.341 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 22:44:08.341 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 22:44:08.385 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 22:44:08.394 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 22:44:08.745 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-09 22:44:08.745 | INFO | evaluate_triad |  runRAGtriadEval | INDEX  | RESOLVED INTENT  | CONTEXT REL  | GROUNDED   | ANSWER REL
+2026-09-09 22:44:08.745 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-09 22:44:08.745 | INFO | evaluate_triad |  runRAGtriadEval | 1      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.745 | INFO | evaluate_triad |  runRAGtriadEval | 2      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.745 | INFO | evaluate_triad |  runRAGtriadEval | 3      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.745 | INFO | evaluate_triad |  runRAGtriadEval | 4      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.745 | INFO | evaluate_triad |  runRAGtriadEval | 5      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.761 | INFO | evaluate_triad |  runRAGtriadEval | 6      | out_of_scope     | 0.00         | 0.00       | 0.00      
+2026-09-09 22:44:08.761 | INFO | evaluate_triad |  runRAGtriadEval | 7      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.765 | INFO | evaluate_triad |  runRAGtriadEval | 8      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.765 | INFO | evaluate_triad |  runRAGtriadEval | 9      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.765 | INFO | evaluate_triad |  runRAGtriadEval | 10     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.765 | INFO | evaluate_triad |  runRAGtriadEval | 11     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.765 | INFO | evaluate_triad |  runRAGtriadEval | 12     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.765 | INFO | evaluate_triad |  runRAGtriadEval | 13     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.773 | INFO | evaluate_triad |  runRAGtriadEval | 14     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.778 | INFO | evaluate_triad |  runRAGtriadEval | 15     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.778 | INFO | evaluate_triad |  runRAGtriadEval | 16     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.778 | INFO | evaluate_triad |  runRAGtriadEval | 17     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.778 | INFO | evaluate_triad |  runRAGtriadEval | 18     | status_check     | 0.00         | 0.00       | 0.00      
+2026-09-09 22:44:08.778 | INFO | evaluate_triad |  runRAGtriadEval | 19     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.784 | INFO | evaluate_triad |  runRAGtriadEval | 20     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.784 | INFO | evaluate_triad |  runRAGtriadEval | 21     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.784 | INFO | evaluate_triad |  runRAGtriadEval | 22     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.784 | INFO | evaluate_triad |  runRAGtriadEval | 23     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.784 | INFO | evaluate_triad |  runRAGtriadEval | 24     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.784 | INFO | evaluate_triad |  runRAGtriadEval | 25     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.784 | INFO | evaluate_triad |  runRAGtriadEval | 26     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.791 | INFO | evaluate_triad |  runRAGtriadEval | 27     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-09 22:44:08.791 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-09 22:44:08.791 | INFO | evaluate_triad |  runRAGtriadEval | 📊 === FINAL AGGREGATE SYSTEM METRICS SCORECARD ===
+2026-09-09 22:44:08.791 | INFO | evaluate_triad |  runRAGtriadEval | Average Context Relevance: 0.93
+2026-09-09 22:44:08.791 | INFO | evaluate_triad |  runRAGtriadEval | Average Groundedness:      0.93
+2026-09-09 22:44:08.791 | INFO | evaluate_triad |  runRAGtriadEval | Average Answer Relevance:  0.93
+2026-09-09 22:44:08.791 | INFO | evaluate_triad |  runRAGtriadEval | ===================================================
+2026-09-09 22:44:08.791 | INFO | evaluate_triad |  runRAGtriadEval | RAG Triad metrics evaluation logged successfully.
+2026-09-09 22:51:58.399 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-09 23:04:50.239 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-09 23:04:50.239 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-09 23:04:50.254 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-09 23:04:50.257 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-09 23:04:50.257 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-09 23:04:50.262 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-09 23:04:50.262 | ERROR | graph |  rag_node | Vector Database connectivity link dropped: name 'chromadb' is not defined
+2026-09-09 23:04:50.369 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-09 23:04:50.369 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-09 23:09:42.787 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.

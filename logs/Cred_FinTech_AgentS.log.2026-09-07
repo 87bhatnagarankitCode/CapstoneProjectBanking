@@ -1,0 +1,750 @@
+2026-09-07 22:34:34.791 | INFO | evaluate_triad |  runRAGtriadEval | === Initializing Task 13: Bulk RAG Triad Evaluation Suite under MOCK_LLM ===
+2026-09-07 22:36:34.513 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 22:38:27.874 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 22:38:27.903 | INFO | evaluate_triad |  runRAGtriadEval | === Initializing Task 13: Bulk RAG Triad Evaluation Suite under MOCK_LLM ===
+2026-09-07 22:38:28.024 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:28.024 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:28.040 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:28.040 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:28.048 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:28.048 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:28.223 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:28.223 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:28.658 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:28.658 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:28.658 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:28.658 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:28.658 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:28.658 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:28.756 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:28.756 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:29.059 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:29.059 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:29.075 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:29.075 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:29.085 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:29.089 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:29.140 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:29.140 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:29.448 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:29.448 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:29.463 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:29.463 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:29.474 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:29.476 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:29.523 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:29.523 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:29.885 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:29.885 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:29.885 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:29.885 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:29.908 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:29.909 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:29.956 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:29.956 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:30.291 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:30.291 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:30.307 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:30.307 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:30.307 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:30.307 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:30.563 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:30.563 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:30.563 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:30.563 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:30.583 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:30.585 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:30.623 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:30.623 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:30.833 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:30.833 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:30.833 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:30.833 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:30.851 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:30.852 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:30.907 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:30.907 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:31.224 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:31.224 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:31.224 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:31.224 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:31.224 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:31.224 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:31.290 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:31.290 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:31.594 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:31.594 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:31.594 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:31.594 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:31.619 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:31.620 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:31.656 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:31.656 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:32.033 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:32.033 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:32.033 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:32.033 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:32.050 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:32.051 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:32.123 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:32.123 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:32.535 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:32.535 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:32.551 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:32.551 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:32.561 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:38:32.563 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:38:32.599 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:32.599 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:32.924 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:32.924 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:32.924 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:32.924 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:32.942 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:38:32.945 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1002
+2026-09-07 22:38:34.591 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-07 22:38:34.605 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:34.605 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:34.786 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:34.786 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:34.786 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:34.786 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:34.796 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:38:34.796 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1005
+2026-09-07 22:38:35.796 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-07 22:38:35.796 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:35.796 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:35.969 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:35.969 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:35.985 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:35.985 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:35.996 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:38:35.998 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1010
+2026-09-07 22:38:36.958 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-07 22:38:36.958 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:36.958 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:37.085 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:37.086 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:37.088 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:37.089 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:37.089 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:37.089 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:37.395 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:37.395 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:37.395 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:37.395 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:37.416 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:37.418 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:37.711 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:37.711 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:37.726 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:37.726 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:37.739 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:38:37.789 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:37.789 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:38.109 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:38.109 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:38.109 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:38.109 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:38.128 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:38.130 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:38.415 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:38.415 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:38.430 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:38.430 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:38.440 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:38.442 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:38.835 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:38.836 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:38.839 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:38.839 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:38.851 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:38.852 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:39.065 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:39.065 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:39.065 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:39.065 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:39.081 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:39.081 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:39.372 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:39.372 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:39.372 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:39.372 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:39.389 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:39.451 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:39.800 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:39.800 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:39.816 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:39.816 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:39.829 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:39.830 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:40.336 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:38:40.336 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:38:40.336 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:38:40.336 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:38:40.352 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:38:40.352 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | INDEX  | RESOLVED INTENT  | CONTEXT REL  | GROUNDED   | ANSWER REL
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | 1      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | 2      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | 3      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | 4      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | 5      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | 6      | out_of_scope     | 0.00         | 0.00       | 0.00      
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | 7      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.613 | INFO | evaluate_triad |  runRAGtriadEval | 8      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.625 | INFO | evaluate_triad |  runRAGtriadEval | 9      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.626 | INFO | evaluate_triad |  runRAGtriadEval | 10     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.627 | INFO | evaluate_triad |  runRAGtriadEval | 11     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.628 | INFO | evaluate_triad |  runRAGtriadEval | 12     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.629 | INFO | evaluate_triad |  runRAGtriadEval | 13     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.630 | INFO | evaluate_triad |  runRAGtriadEval | 14     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.631 | INFO | evaluate_triad |  runRAGtriadEval | 15     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.632 | INFO | evaluate_triad |  runRAGtriadEval | 16     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.633 | INFO | evaluate_triad |  runRAGtriadEval | 17     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.634 | INFO | evaluate_triad |  runRAGtriadEval | 18     | status_check     | 0.00         | 0.00       | 0.00      
+2026-09-07 22:38:40.635 | INFO | evaluate_triad |  runRAGtriadEval | 19     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.636 | INFO | evaluate_triad |  runRAGtriadEval | 20     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.640 | INFO | evaluate_triad |  runRAGtriadEval | 21     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.644 | INFO | evaluate_triad |  runRAGtriadEval | 22     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.647 | INFO | evaluate_triad |  runRAGtriadEval | 23     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.649 | INFO | evaluate_triad |  runRAGtriadEval | 24     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.649 | INFO | evaluate_triad |  runRAGtriadEval | 25     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:38:40.650 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-07 22:38:40.651 | INFO | evaluate_triad |  runRAGtriadEval | 📊 === FINAL AGGREGATE SYSTEM METRICS SCORECARD ===
+2026-09-07 22:38:40.651 | INFO | evaluate_triad |  runRAGtriadEval | Average Context Relevance: 0.92
+2026-09-07 22:38:40.657 | INFO | evaluate_triad |  runRAGtriadEval | Average Groundedness:      0.92
+2026-09-07 22:38:40.657 | INFO | evaluate_triad |  runRAGtriadEval | Average Answer Relevance:  0.92
+2026-09-07 22:38:40.658 | INFO | evaluate_triad |  runRAGtriadEval | ===================================================
+2026-09-07 22:38:40.658 | INFO | evaluate_triad |  runRAGtriadEval | RAG Triad metrics evaluation logged successfully.
+2026-09-07 22:42:03.875 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 22:42:03.878 | INFO | evaluate_triad |  runRAGtriadEval | === Initializing Task 13: Bulk RAG Triad Evaluation Suite under MOCK_LLM ===
+2026-09-07 22:42:04.011 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:04.011 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:04.027 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:04.027 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:04.027 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:04.027 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:04.161 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:04.161 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:04.529 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:04.529 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:04.544 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:04.544 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:04.561 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:04.561 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:04.612 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:04.612 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:04.874 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:04.874 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:04.890 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:04.890 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:04.899 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:04.901 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:04.934 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:04.934 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:05.248 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:05.263 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:05.263 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:05.263 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:05.277 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:05.279 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:05.313 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:05.313 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:05.632 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:05.632 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:05.648 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:05.648 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:05.659 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:05.660 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:05.713 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:05.713 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:05.989 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:05.989 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:05.989 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:05.989 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:06.012 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:06.015 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:06.301 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:06.301 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:06.301 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:06.301 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:06.301 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:06.301 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:06.396 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:06.398 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:06.928 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:06.928 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:06.928 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:06.928 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:06.928 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:06.928 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:07.170 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:07.170 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:07.649 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:07.649 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:07.649 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:07.649 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:07.667 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:07.668 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:07.713 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:07.713 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:08.136 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:08.136 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:08.136 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:08.136 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:08.147 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:08.147 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:08.197 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:08.197 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:08.560 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:08.560 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:08.560 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:08.560 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:08.582 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:08.584 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:08.629 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:08.630 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:08.948 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:08.948 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:08.948 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:08.948 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:08.966 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:42:08.967 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:42:09.014 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:09.014 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:09.346 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:09.346 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:09.346 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:09.346 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:09.366 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:42:09.368 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1002
+2026-09-07 22:42:10.393 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-07 22:42:10.393 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:10.393 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:10.558 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:10.558 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:10.558 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:10.558 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:10.578 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:42:10.581 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1005
+2026-09-07 22:42:11.538 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-07 22:42:11.538 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:11.538 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:11.804 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:11.820 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:11.820 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:11.835 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:11.843 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:42:11.843 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1010
+2026-09-07 22:42:12.777 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-07 22:42:12.777 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:12.777 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:12.927 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:12.927 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:12.927 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:12.927 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:12.945 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:12.947 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:13.156 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:13.156 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:13.156 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:13.156 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:13.181 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:13.195 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:13.514 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:13.530 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:13.530 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:13.530 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:13.543 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:42:13.579 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:13.579 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:13.798 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:13.799 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:13.804 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:13.805 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:13.812 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:13.813 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:14.116 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:14.116 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:14.116 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:14.116 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:14.134 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:14.136 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:14.392 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:14.392 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:14.392 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:14.392 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:14.410 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:14.412 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:14.794 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:14.794 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:14.809 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:14.809 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:14.832 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:14.833 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:15.226 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:15.226 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:15.226 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:15.226 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:15.245 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:15.295 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:15.629 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:15.629 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:15.629 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:15.629 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:15.647 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:15.648 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:15.941 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:15.943 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:15.945 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:15.945 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:15.956 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:15.957 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:16.358 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:16.358 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:16.358 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:16.358 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:16.375 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:16.376 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:16.673 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:42:16.673 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:42:16.689 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:42:16.689 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:42:16.699 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:42:16.701 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:42:16.968 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-07 22:42:16.968 | INFO | evaluate_triad |  runRAGtriadEval | INDEX  | RESOLVED INTENT  | CONTEXT REL  | GROUNDED   | ANSWER REL
+2026-09-07 22:42:16.968 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-07 22:42:16.968 | INFO | evaluate_triad |  runRAGtriadEval | 1      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.968 | INFO | evaluate_triad |  runRAGtriadEval | 2      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.968 | INFO | evaluate_triad |  runRAGtriadEval | 3      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.968 | INFO | evaluate_triad |  runRAGtriadEval | 4      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.968 | INFO | evaluate_triad |  runRAGtriadEval | 5      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.968 | INFO | evaluate_triad |  runRAGtriadEval | 6      | out_of_scope     | 0.00         | 0.00       | 0.00      
+2026-09-07 22:42:16.978 | INFO | evaluate_triad |  runRAGtriadEval | 7      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.978 | INFO | evaluate_triad |  runRAGtriadEval | 8      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.978 | INFO | evaluate_triad |  runRAGtriadEval | 9      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.978 | INFO | evaluate_triad |  runRAGtriadEval | 10     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.979 | INFO | evaluate_triad |  runRAGtriadEval | 11     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.979 | INFO | evaluate_triad |  runRAGtriadEval | 12     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.979 | INFO | evaluate_triad |  runRAGtriadEval | 13     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.980 | INFO | evaluate_triad |  runRAGtriadEval | 14     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.980 | INFO | evaluate_triad |  runRAGtriadEval | 15     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.981 | INFO | evaluate_triad |  runRAGtriadEval | 16     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.982 | INFO | evaluate_triad |  runRAGtriadEval | 17     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.982 | INFO | evaluate_triad |  runRAGtriadEval | 18     | status_check     | 0.00         | 0.00       | 0.00      
+2026-09-07 22:42:16.983 | INFO | evaluate_triad |  runRAGtriadEval | 19     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.984 | INFO | evaluate_triad |  runRAGtriadEval | 20     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.985 | INFO | evaluate_triad |  runRAGtriadEval | 21     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.985 | INFO | evaluate_triad |  runRAGtriadEval | 22     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.986 | INFO | evaluate_triad |  runRAGtriadEval | 23     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.987 | INFO | evaluate_triad |  runRAGtriadEval | 24     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.987 | INFO | evaluate_triad |  runRAGtriadEval | 25     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.988 | INFO | evaluate_triad |  runRAGtriadEval | 26     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.988 | INFO | evaluate_triad |  runRAGtriadEval | 27     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:42:16.988 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-07 22:42:16.988 | INFO | evaluate_triad |  runRAGtriadEval | 📊 === FINAL AGGREGATE SYSTEM METRICS SCORECARD ===
+2026-09-07 22:42:16.988 | INFO | evaluate_triad |  runRAGtriadEval | Average Context Relevance: 0.93
+2026-09-07 22:42:16.988 | INFO | evaluate_triad |  runRAGtriadEval | Average Groundedness:      0.93
+2026-09-07 22:42:16.988 | INFO | evaluate_triad |  runRAGtriadEval | Average Answer Relevance:  0.93
+2026-09-07 22:42:16.994 | INFO | evaluate_triad |  runRAGtriadEval | ===================================================
+2026-09-07 22:42:16.994 | INFO | evaluate_triad |  runRAGtriadEval | RAG Triad metrics evaluation logged successfully.
+2026-09-07 22:58:36.263 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 22:58:36.277 | INFO | evaluate_triad |  runRAGtriadEval | === Initializing Task 13: Bulk RAG Triad Evaluation Suite under MOCK_LLM ===
+2026-09-07 22:58:36.294 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:36.294 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:36.299 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:36.299 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:36.303 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:36.303 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:36.445 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:36.445 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:36.771 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:36.771 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:36.788 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:36.789 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:36.800 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:36.801 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:36.821 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:36.821 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:37.352 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:37.353 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:37.361 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:37.362 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:37.365 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:37.366 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:37.478 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:37.495 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:38.070 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:38.086 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:38.092 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:38.093 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:38.100 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:38.101 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:38.194 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:38.195 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:38.654 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:38.654 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:38.654 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:38.654 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:38.681 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:38.682 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:38.793 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:38.793 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:39.190 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:39.190 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:39.206 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:39.206 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:39.217 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:39.218 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:39.608 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:39.608 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:39.608 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:39.608 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:39.629 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:39.630 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:39.714 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:39.714 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:40.202 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:40.202 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:40.202 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:40.202 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:40.221 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:40.222 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:40.262 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:40.262 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:40.805 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:40.805 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:40.812 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:40.812 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:40.820 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:40.820 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:40.862 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:40.862 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:41.196 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:41.196 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:41.196 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:41.196 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:41.196 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:41.196 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:41.231 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:41.231 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:41.458 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:41.458 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:41.458 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:41.458 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:41.474 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:41.476 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:41.511 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:41.511 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:42.022 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:42.022 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:42.022 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:42.022 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:42.022 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 22:58:42.022 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 22:58:42.079 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:42.079 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:42.334 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:42.334 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:42.349 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:42.349 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:42.365 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:58:42.366 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1002
+2026-09-07 22:58:43.396 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-07 22:58:43.396 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:43.396 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:43.558 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:43.559 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:43.562 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:43.562 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:43.572 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:58:43.573 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1005
+2026-09-07 22:58:44.529 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-07 22:58:44.529 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:44.529 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:44.848 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:44.848 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:44.864 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:44.864 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:44.874 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:58:44.875 | INFO | graph |  lookup_node | Processing structural status validation inquiry trajectory for tracking token: LNK-1010
+2026-09-07 22:58:45.962 | WARNING | graph |  lookup_node | MCP network pipe unreachable. Activating deterministic local file extraction fallback registry.
+2026-09-07 22:58:45.962 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:45.962 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:46.143 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:46.143 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:46.160 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:46.160 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:46.164 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:46.165 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:46.480 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:46.480 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:46.480 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:46.480 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:46.496 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:46.498 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:46.789 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:46.789 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:46.789 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:46.789 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:46.807 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-07 22:58:46.845 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:46.862 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:47.148 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:47.148 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:47.163 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:47.163 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:47.173 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:47.174 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:47.404 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:47.404 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:47.404 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:47.404 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:47.417 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:47.419 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:47.667 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:47.667 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:47.667 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:47.667 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:47.684 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:47.685 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:47.981 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:47.981 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:47.981 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:47.981 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:48.001 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:48.002 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:48.252 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:48.252 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:48.252 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:48.252 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:48.265 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:48.317 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:48.600 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:48.600 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:48.600 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:48.600 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:48.619 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:48.620 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:48.934 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:48.934 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:48.934 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:48.934 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:48.952 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:48.953 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:49.247 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:49.247 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:49.247 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:49.247 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:49.262 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:49.263 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:49.645 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 22:58:49.645 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 22:58:49.645 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 22:58:49.645 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 22:58:49.662 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 22:58:49.663 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | INDEX  | RESOLVED INTENT  | CONTEXT REL  | GROUNDED   | ANSWER REL
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | 1      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | 2      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | 3      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | 4      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | 5      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | 6      | out_of_scope     | 0.00         | 0.00       | 0.00      
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | 7      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | 8      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.956 | INFO | evaluate_triad |  runRAGtriadEval | 9      | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.972 | INFO | evaluate_triad |  runRAGtriadEval | 10     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.973 | INFO | evaluate_triad |  runRAGtriadEval | 11     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.974 | INFO | evaluate_triad |  runRAGtriadEval | 12     | policy_rag       | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.975 | INFO | evaluate_triad |  runRAGtriadEval | 13     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.976 | INFO | evaluate_triad |  runRAGtriadEval | 14     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.978 | INFO | evaluate_triad |  runRAGtriadEval | 15     | status_check     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.979 | INFO | evaluate_triad |  runRAGtriadEval | 16     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.980 | INFO | evaluate_triad |  runRAGtriadEval | 17     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.981 | INFO | evaluate_triad |  runRAGtriadEval | 18     | status_check     | 0.00         | 0.00       | 0.00      
+2026-09-07 22:58:49.982 | INFO | evaluate_triad |  runRAGtriadEval | 19     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.983 | INFO | evaluate_triad |  runRAGtriadEval | 20     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.984 | INFO | evaluate_triad |  runRAGtriadEval | 21     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.985 | INFO | evaluate_triad |  runRAGtriadEval | 22     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.985 | INFO | evaluate_triad |  runRAGtriadEval | 23     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.996 | INFO | evaluate_triad |  runRAGtriadEval | 24     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.996 | INFO | evaluate_triad |  runRAGtriadEval | 25     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.996 | INFO | evaluate_triad |  runRAGtriadEval | 26     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.996 | INFO | evaluate_triad |  runRAGtriadEval | 27     | out_of_scope     | 1.00         | 1.00       | 1.00      
+2026-09-07 22:58:49.996 | INFO | evaluate_triad |  runRAGtriadEval | ================================================================================
+2026-09-07 22:58:49.996 | INFO | evaluate_triad |  runRAGtriadEval | 📊 === FINAL AGGREGATE SYSTEM METRICS SCORECARD ===
+2026-09-07 22:58:50.001 | INFO | evaluate_triad |  runRAGtriadEval | Average Context Relevance: 0.93
+2026-09-07 22:58:50.001 | INFO | evaluate_triad |  runRAGtriadEval | Average Groundedness:      0.93
+2026-09-07 22:58:50.001 | INFO | evaluate_triad |  runRAGtriadEval | Average Answer Relevance:  0.93
+2026-09-07 22:58:50.002 | INFO | evaluate_triad |  runRAGtriadEval | ===================================================
+2026-09-07 22:58:50.002 | INFO | evaluate_triad |  runRAGtriadEval | RAG Triad metrics evaluation logged successfully.
+2026-09-07 23:12:39.658 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 23:23:09.718 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 23:23:09.718 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 23:23:09.718 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 23:23:09.718 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 23:23:09.731 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 23:23:09.735 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 23:31:11.792 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 23:31:11.808 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 23:31:11.808 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 23:31:11.822 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 23:31:11.830 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 23:31:11.846 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 23:43:22.971 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 23:43:28.341 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 23:43:33.133 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 23:45:02.551 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 23:45:02.551 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 23:45:02.566 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 23:45:02.566 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 23:45:02.574 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 23:45:02.574 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 23:45:42.499 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 23:45:42.499 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 23:45:42.516 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 23:45:42.516 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 23:45:42.537 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 23:45:42.537 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 23:46:53.294 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 23:46:53.294 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 23:46:53.294 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 23:46:53.294 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 23:46:53.328 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 23:46:53.328 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 23:49:11.546 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 23:49:11.546 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 23:49:11.546 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 23:49:11.546 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 23:49:11.546 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 23:49:11.546 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 23:49:11.588 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 23:49:11.588 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 23:51:00.467 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 23:51:04.141 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 23:51:08.143 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 23:52:02.762 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 23:52:02.762 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 23:52:02.762 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 23:52:02.762 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 23:52:02.762 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 23:52:02.762 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 23:52:02.844 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 23:52:02.844 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
+2026-09-07 23:54:47.357 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 23:54:50.794 | INFO | graph |  compile_workflow | System Notification: Core LangGraph Engine successfully compiled with SQLite Checkpointer Storage Base.
+2026-09-07 23:55:23.252 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-07 23:55:23.252 | INFO | graph |  guardrail_node |  --- Guardrail Checking & Integrity Verification ---
+2026-09-07 23:55:23.262 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-07 23:55:23.262 | INFO | graph |  router_node | ---  Intent Routing Logic Analyzer ---
+2026-09-07 23:55:23.273 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-07 23:55:23.274 | INFO | graph |  rag_node | ---  RAG Policy Store Knowledge Base Retrieval ---
+2026-09-07 23:55:23.344 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-07 23:55:23.344 | INFO | graph |  generator_node | ---  Final Response Generation via Deterministic MOCK_LLM Layer ---
