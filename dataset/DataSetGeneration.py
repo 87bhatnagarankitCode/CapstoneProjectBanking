@@ -12,12 +12,15 @@ STATUSES = ["Submitted", "Under Review", "Approved", "Rejected", "Disbursed"]
 MIN_AMOUNT = 50_000
 MAX_AMOUNT = 5_000_000
 
-def generate_dataset(n=40):
+def generate_dataset(n=50):
     log.info("######      Generating dataset with %d records      ######", n)
     dataset = []
-    for _ in range(n):
+    for i in range(1, n + 1):
+        
+        generated_id = f"LNK-{1000 + i}"
+        
         record = {
-            "record_id": str(uuid.uuid4().hex[:15]),
+            "record_id": generated_id,
             "category": random.choice(CATEGORIES),
             "status": random.choice(STATUSES),
             "loan_amount_inr": random.randint(MIN_AMOUNT, MAX_AMOUNT),

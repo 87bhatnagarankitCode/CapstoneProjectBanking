@@ -10,7 +10,6 @@ import sqlite3
 import httpx
 import time
 import chromadb
-from sentence_transformers import SentenceTransformer
 from typing import TypedDict, List, Dict, Any, Optional
 from pydantic import BaseModel, Field
 from langgraph.graph import StateGraph, END
@@ -38,7 +37,7 @@ def _fetch_from_mcp_server(target_id: str) -> Optional[Dict[str, Any]]:
     """Network-based FastMCP tool lookup bridge."""
     try:
         response = httpx.post(
-            "http://127.0.0", 
+            "http://127.0.0", # Production standardized standard endpoint path mapping
             json={
                 "jsonrpc": "2.0",
                 "method": "tools/call",
@@ -104,47 +103,44 @@ def router_node(state: CredAgentState) -> Dict[str, Any]:
 
 def rag_node(state: CredAgentState) -> Dict[str, Any]:
     log.info("--- Entering Node: [rag_node] ---")
-    query_text = state.get("sanitized_query", "").lower()
+    query_text = state.get("sanitized_query", "")
     
-    # ----------------------------------------------------------------------
-    # SYSTEM INTERNALS INJECTION TO COMPLETELY KILL CHROMADB TELEMETRY CRASH
-    # ----------------------------------------------------------------------
-    import sys
-    # Direct memory override to force kill telemetry library layers completely
-    for target_mod in ['chromadb.telemetry.posthog', 'chromadb.telemetry.product_analytics']:
-        if target_mod in sys.modules:
-            del sys.modules[target_mod]
-            
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    docs_dir = os.path.join(base_dir, "knowledge_base", "documents")
+    chroma_path = os.path.join(base_dir, "knowledge_base", "chroma_db", "sentence_based")
     
     retrieved_text = "SORRY"
+    
     try:
-        # Dummy verification to keep grader client validation loop intact for full marks
-        mock_client_str = "chromadb.PersistentClient(path='knowledge_base/chroma_db')"
-        log.info(f"Auditing compliant instance reference: {mock_client_str}")
         
-        # Genuine storage lookups mapping the exact active chunks layout folder
-        if os.path.exists(docs_dir):
-            matched_chunks = []
-            query_words = [w for w in query_text.split() if len(w) > 3 or w in ["fee", "kyc", "emi", "nri"]]
+        client = chromadb.PersistentClient(path=chroma_path)
+        collection = client.get_collection(name="sentence_based_collection")
+        
+       
+        results = collection.query(
+            query_texts=[query_text],
+            n_results=3
+        )
+        
+        if results and results.get("documents") and results["documents"] and results.get("distances"):
+           
+            raw_distance = results["distances"][0][0] if isinstance(results["distances"][0], list) else results["distances"][0]
+            highest_similarity = round(1.0 - float(raw_distance), 4)
+            log.info(f"ChromaDB Query Cosine Similarity Score Evaluated: {highest_similarity}")
             
-            for filename in sorted(os.listdir(docs_dir)):
-                if filename.endswith(".md"):
-                    with open(os.path.join(docs_dir, filename), "r", encoding="utf-8") as f:
-                        content = f.read()
-                        if any(word in content.lower() for word in query_words):
-                            matched_chunks.append(str(content))
-                            
-            if matched_chunks:
-                retrieved_text = " ".join(matched_chunks[:3]).strip()
-                log.info("Success: Compliant real database text chunks securely populated.")
+            # Task 4 & Task 10
+            if highest_similarity < 0.15:
+                log.info(f"Highest Similarity {highest_similarity} below critical threshold (0.15). Triggering fallback.")
+                return {"retrieved_context": "SORRY"}
+                
+            matched_chunks = results["documents"][0] if isinstance(results["documents"][0], list) else results["documents"]
+            retrieved_text = " ".join(matched_chunks).strip()
+            log.info(f"Success: Retrieved {len(matched_chunks)} discrete chunks from sentence collection.")
+            
     except Exception as e:
-        log.error(f"Vector Database layout handling check skipped: {str(e)}")
+        log.error(f"Critical failure inside real ChromaDB retriever node: {str(e)}")
         retrieved_text = "SORRY"
         
     return {"retrieved_context": retrieved_text}
-
 
 
 def lookup_node(state: CredAgentState) -> Dict[str, Any]:
@@ -164,7 +160,6 @@ def generator_node(state: CredAgentState) -> Dict[str, Any]:
     response_string = ""
     escalation_status = "STANDARD_QUEUE"
     
-    # Pre-emptively load context elements safely to bypass data structure faults
     context = state.get("retrieved_context", "SORRY")
     
     if intent == "status_check" and state.get("application_data"):
@@ -183,7 +178,6 @@ def generator_node(state: CredAgentState) -> Dict[str, Any]:
     else:
         response_string = "I am only authorized to resolve validated loan policy regulations and active status validation inquiry tracking."
         
-    # Strictly bind properties to prevent Pydantic 2.x orchestration structure drops
     payload = {
         "is_safe": True, 
         "resolved_intent": intent, 
@@ -191,9 +185,7 @@ def generator_node(state: CredAgentState) -> Dict[str, Any]:
         "action_recommended": escalation_status
     }
     
-    # Return valid dictionary matching structural expectations exactly
     return {"final_output": CredAgentResponse(**payload).model_dump()}
-
 
 
 workflow = StateGraph(CredAgentState)
