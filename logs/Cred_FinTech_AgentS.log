@@ -50,3 +50,67 @@
 2026-09-13 22:05:23.609 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
 2026-09-13 22:05:23.785 | INFO | test_resilience |  run_resilience_tests | [CHECKPOINT SUCCESS] Pipeline completed run without re-executing initial nodes!
 2026-09-13 22:05:23.786 | INFO | test_resilience |  run_resilience_tests | Final Resumed Result Payload: {'is_safe': True, 'resolved_intent': 'policy_rag', 'response_text': 'I am sorry, but the internal policy guidelines do not contain enough parameter metrics to answer this request.', 'action_recommended': 'STANDARD_QUEUE'}
+2026-09-13 22:24:29.990 | INFO | test_resilience |  run_resilience_tests | === STARTING TEST 1: TRANSIENT RETRY ENGINE AUDIT ===
+2026-09-13 22:24:29.990 | INFO | test_resilience |  run_resilience_tests | Firing lookup status query to trigger backoff validation loops...
+2026-09-13 22:24:30.004 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-13 22:24:30.009 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-13 22:24:30.012 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-13 22:24:30.478 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-13 22:24:30.659 | INFO | test_resilience |  run_resilience_tests | [SUCCESS] Graph auto-recovered using exponential backoff policy!
+2026-09-13 22:24:30.675 | INFO | test_resilience |  run_resilience_tests | Final Execution Output Payload: {'is_safe': True, 'resolved_intent': 'status_check', 'response_text': "Your application (LNK-1001) is currently tracking as 'Submitted'. Recency and fraud markers output a risk profile index score of 0.07.", 'action_recommended': 'STANDARD_QUEUE'}
+2026-09-13 22:24:30.675 | INFO | test_resilience |  run_resilience_tests | === STARTING TEST 2: SQLITE CHECKPOINT SAVE & RESUME ===
+2026-09-13 22:24:30.675 | INFO | test_resilience |  run_resilience_tests | Compiling graph with explicit run-time interruption after 'router' node...
+2026-09-13 22:24:30.716 | INFO | test_resilience |  run_resilience_tests | Executing initial pipeline flow layers until auto-paused...
+2026-09-13 22:24:30.739 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-13 22:24:30.742 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['guardrail']
+2026-09-13 22:24:30.742 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-13 22:24:31.027 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['router']
+2026-09-13 22:24:31.031 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['__interrupt__']
+2026-09-13 22:24:31.031 | INFO | test_resilience |  run_resilience_tests | !!! GRAPH AUTOMATICALLY PAUSED BY CHECKPOINTER AFTER ROUTER !!!
+2026-09-13 22:24:31.031 | INFO | test_resilience |  run_resilience_tests | Simulating system recovery window... Waiting 2 seconds.
+2026-09-13 22:24:33.034 | INFO | test_resilience |  run_resilience_tests | Resuming execution thread ID 'checkpoint_session_202' from data/checkpoints.sqlite...
+2026-09-13 22:24:33.036 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-13 22:24:33.928 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.1209
+2026-09-13 22:24:33.928 | INFO | graph |  rag_node | Highest Similarity 0.1209 below critical threshold (0.15). Triggering fallback.
+2026-09-13 22:24:33.932 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-13 22:24:34.082 | INFO | test_resilience |  run_resilience_tests | [CHECKPOINT SUCCESS] Pipeline completed run without re-executing initial nodes!
+2026-09-13 22:24:34.082 | INFO | test_resilience |  run_resilience_tests | Final Resumed Result Payload: {'is_safe': True, 'resolved_intent': 'policy_rag', 'response_text': 'I am sorry, but the internal policy guidelines do not contain enough parameter metrics to answer this request.', 'action_recommended': 'STANDARD_QUEUE'}
+2026-09-13 22:24:34.082 | INFO | test_resilience |  run_resilience_tests | === STARTING TEST 3: PER-NODE TIMEOUT AUDIT ===
+2026-09-13 22:24:34.082 | INFO | test_resilience |  run_resilience_tests | Simulating a slow node execution that exceeds the step timeout limits...
+2026-09-13 22:24:34.082 | INFO | test_resilience |  run_resilience_tests | [NODE TIMEOUT SUCCESS] Per-node timeout fired a clean error safely: 'StateGraph' object has no attribute 'copy'
+2026-09-13 22:24:34.082 | INFO | test_resilience |  run_resilience_tests | 
+=== STARTING TEST 4: GLOBAL GRAPH TIMEOUT OVERRUN AUDIT ===
+2026-09-13 22:24:34.082 | INFO | test_resilience |  run_resilience_tests | Simulating heavy execution load to trigger global run cancellation...
+2026-09-13 22:24:34.082 | INFO | test_resilience |  run_resilience_tests | [GLOBAL TIMEOUT SUCCESS] Global timeout correctly cancelled the total run: 'StateGraph' object has no attribute 'copy'
+2026-09-13 22:25:05.980 | INFO | test_resilience |  run_resilience_tests | === STARTING TEST 1: TRANSIENT RETRY ENGINE AUDIT ===
+2026-09-13 22:25:05.980 | INFO | test_resilience |  run_resilience_tests | Firing lookup status query to trigger backoff validation loops...
+2026-09-13 22:25:05.999 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-13 22:25:06.004 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-13 22:25:06.010 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-13 22:25:06.635 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-13 22:25:06.808 | INFO | test_resilience |  run_resilience_tests | [SUCCESS] Graph auto-recovered using exponential backoff policy!
+2026-09-13 22:25:06.809 | INFO | test_resilience |  run_resilience_tests | Final Execution Output Payload: {'is_safe': True, 'resolved_intent': 'status_check', 'response_text': "Your application (LNK-1001) is currently tracking as 'Submitted'. Recency and fraud markers output a risk profile index score of 0.07.", 'action_recommended': 'STANDARD_QUEUE'}
+2026-09-13 22:25:06.810 | INFO | test_resilience |  run_resilience_tests | === STARTING TEST 2: SQLITE CHECKPOINT SAVE & RESUME ===
+2026-09-13 22:25:06.810 | INFO | test_resilience |  run_resilience_tests | Compiling graph with explicit run-time interruption after 'router' node...
+2026-09-13 22:25:06.849 | INFO | test_resilience |  run_resilience_tests | Executing initial pipeline flow layers until auto-paused...
+2026-09-13 22:25:06.885 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-13 22:25:06.887 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['guardrail']
+2026-09-13 22:25:06.888 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-13 22:25:07.118 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['router']
+2026-09-13 22:25:07.119 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['__interrupt__']
+2026-09-13 22:25:07.120 | INFO | test_resilience |  run_resilience_tests | !!! GRAPH AUTOMATICALLY PAUSED BY CHECKPOINTER AFTER ROUTER !!!
+2026-09-13 22:25:07.121 | INFO | test_resilience |  run_resilience_tests | Simulating system recovery window... Waiting 2 seconds.
+2026-09-13 22:25:09.122 | INFO | test_resilience |  run_resilience_tests | Resuming execution thread ID 'checkpoint_session_202' from data/checkpoints.sqlite...
+2026-09-13 22:25:09.126 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-13 22:25:10.063 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.1209
+2026-09-13 22:25:10.063 | INFO | graph |  rag_node | Highest Similarity 0.1209 below critical threshold (0.15). Triggering fallback.
+2026-09-13 22:25:10.063 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-13 22:25:10.191 | INFO | test_resilience |  run_resilience_tests | [CHECKPOINT SUCCESS] Pipeline completed run without re-executing initial nodes!
+2026-09-13 22:25:10.191 | INFO | test_resilience |  run_resilience_tests | Final Resumed Result Payload: {'is_safe': True, 'resolved_intent': 'policy_rag', 'response_text': 'I am sorry, but the internal policy guidelines do not contain enough parameter metrics to answer this request.', 'action_recommended': 'STANDARD_QUEUE'}
+2026-09-13 22:25:10.191 | INFO | test_resilience |  run_resilience_tests | === STARTING TEST 3: PER-NODE TIMEOUT AUDIT ===
+2026-09-13 22:25:10.191 | INFO | test_resilience |  run_resilience_tests | Simulating a slow node execution that exceeds the step timeout limits...
+2026-09-13 22:25:10.191 | INFO | test_resilience |  run_resilience_tests | [NODE TIMEOUT SUCCESS] Per-node timeout fired a clean error safely: 'StateGraph' object has no attribute 'copy'
+2026-09-13 22:25:10.191 | INFO | test_resilience |  run_resilience_tests | 
+=== STARTING TEST 4: GLOBAL GRAPH TIMEOUT OVERRUN AUDIT ===
+2026-09-13 22:25:10.191 | INFO | test_resilience |  run_resilience_tests | Simulating heavy execution load to trigger global run cancellation...
+2026-09-13 22:25:10.191 | INFO | test_resilience |  run_resilience_tests | [GLOBAL TIMEOUT SUCCESS] Global timeout correctly cancelled the total run: 'StateGraph' object has no attribute 'copy'
