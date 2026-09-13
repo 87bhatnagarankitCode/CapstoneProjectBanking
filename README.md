@@ -124,3 +124,10 @@ Boot the persistent command-line console to test live application status checks,
 python agent.mcp_client.py
 ```
 *Type `exit` inside the active shell console to gracefully terminate child worker instances and flush RAM caches.*
+
+## 🛡️ Task 15 & 16: Fault Tolerance & Resilience Stack
+
+To rigorously audit the core MLOps fault tolerance framework without disrupting the main production environment, a dedicated resilience suite has been implemented in `test_resilience.py`.
+
+* **Task 15 (SQLite-Based Checkpointing & Interruption):** The testing script compiles a temporary graph instance with a strict runtime block (`interrupt_after=["router"]`). The graph executes initial layers and automatically freezes state snapshot metrics into `data/checkpoints.sqlite`. Upon reloading using a `None` state invocation under the identical Thread ID (`checkpoint_session_202`), the engine successfully bypasses previously executed nodes, directly launching downstream workflows to achieve full state persistence compliance.
+* **Task 16a (Transient Failure Recovery & Exponential Backoff):** Simulates transient pipeline chokes during database operations. The system gracefully initiates a structured retry strategy complete with randomized jitter parameters and incremental delays, demonstrating self-healing capabilities before final compilation without dropping network hooks.
