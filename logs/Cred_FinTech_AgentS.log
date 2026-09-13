@@ -1,339 +1,52 @@
-2026-09-12 00:15:55.527 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 00:15:55.543 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 00:15:55.553 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 00:15:57.024 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.2234
-2026-09-12 00:15:57.024 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 00:15:57.024 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 00:19:52.725 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 00:19:52.731 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 00:19:52.731 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 00:20:57.698 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 00:20:57.709 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 00:20:57.709 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 00:20:58.523 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 00:51:42.321 | INFO | DataSetGeneration |  generate_dataset | ######      Generating dataset with 50 records      ######
-2026-09-12 00:51:42.321 | INFO | DataSetGeneration |  generate_dataset | ######      Dataset generation complete      ######
-2026-09-12 00:51:42.321 | INFO | DataSetGeneration |  validate_dataset | === Validation Report ===
-2026-09-12 00:51:42.321 | INFO | DataSetGeneration |  validate_dataset | Category counts: Counter({'Personal Loan': 17, 'Business Loan': 11, 'Auto Loan': 10, 'Education Loan': 7, 'Home Loan': 5})
-2026-09-12 00:51:42.321 | INFO | DataSetGeneration |  validate_dataset | Status counts: Counter({'Under Review': 16, 'Submitted': 12, 'Disbursed': 9, 'Approved': 8, 'Rejected': 5})
-2026-09-12 00:51:42.321 | INFO | DataSetGeneration |  validate_dataset | Fraud review percentage: 14.00%
-2026-09-12 00:51:42.321 | INFO | DataSetGeneration |  validate_dataset | =========================
-2026-09-12 00:51:42.329 | INFO | DataSetGeneration |  save_dataset_csv | Dataset saved to dataset_persist.csv
-2026-09-12 00:57:23.590 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 00:57:23.605 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 00:57:23.610 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 00:57:24.340 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 00:57:48.487 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 00:57:48.487 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 00:57:48.495 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 00:57:49.056 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:26.356 | INFO | evaluate_triad |  runRAGtriadEval | === Initializing Task 13: 27-Query RAG Triad Evaluation Suite ===
-2026-09-12 01:16:27.108 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:27.108 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:27.108 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:27.217 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.3704
-2026-09-12 01:16:27.217 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:16:27.217 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:27.589 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:27.589 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:27.589 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:27.700 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.2526
-2026-09-12 01:16:27.700 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:16:27.700 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:28.096 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:28.112 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:28.112 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:28.208 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.3269
-2026-09-12 01:16:28.208 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:16:28.208 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:28.585 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:28.585 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:28.585 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:28.691 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.0947
-2026-09-12 01:16:28.691 | INFO | graph |  rag_node | Highest Similarity 0.0947 below critical threshold (0.15). Triggering fallback.
-2026-09-12 01:16:28.691 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:29.034 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:29.049 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:29.049 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:29.171 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: -0.0025
-2026-09-12 01:16:29.187 | INFO | graph |  rag_node | Highest Similarity -0.0025 below critical threshold (0.15). Triggering fallback.
-2026-09-12 01:16:29.187 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:29.531 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:29.531 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:29.531 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:29.978 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:29.978 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:29.978 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:30.216 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.2234
-2026-09-12 01:16:30.216 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:16:30.216 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:30.463 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:30.463 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:30.463 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:30.574 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.206
-2026-09-12 01:16:30.574 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:16:30.574 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:30.900 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:30.900 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:30.900 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:31.008 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.3244
-2026-09-12 01:16:31.008 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:16:31.044 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:31.559 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:31.559 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:31.559 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:31.658 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.007
-2026-09-12 01:16:31.658 | INFO | graph |  rag_node | Highest Similarity 0.007 below critical threshold (0.15). Triggering fallback.
-2026-09-12 01:16:31.658 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:32.217 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:32.217 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:32.217 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:32.324 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.1031
-2026-09-12 01:16:32.324 | INFO | graph |  rag_node | Highest Similarity 0.1031 below critical threshold (0.15). Triggering fallback.
-2026-09-12 01:16:32.324 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:33.066 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:33.081 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:33.081 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:16:33.174 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.3981
-2026-09-12 01:16:33.174 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:16:33.174 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:33.476 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:33.476 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:33.492 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 01:16:34.003 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:34.240 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:34.240 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:34.240 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 01:16:34.679 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:34.970 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:34.986 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:34.986 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 01:16:35.524 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:35.792 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:35.792 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:35.792 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:36.110 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:36.110 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:36.110 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:36.372 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:36.372 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:36.372 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 01:16:36.408 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:36.748 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:36.763 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:36.763 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:37.138 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:37.138 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:37.138 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:38.081 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:38.081 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:38.097 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:38.490 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:38.490 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:38.490 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:39.006 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:39.006 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:39.006 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:39.374 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:39.374 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:39.383 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:39.725 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:39.725 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:39.725 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:40.197 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:40.212 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:40.212 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:40.559 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:16:40.559 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:16:40.575 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:16:40.950 | INFO | evaluate_triad |  runRAGtriadEval | ==========================================================================================
-2026-09-12 01:16:40.950 | INFO | evaluate_triad |  runRAGtriadEval | IDX  | SIMILARITY | RESOLVED INT | CONTEXT REL | GROUNDED | ANSWER REL
-2026-09-12 01:16:40.950 | INFO | evaluate_triad |  runRAGtriadEval | ==========================================================================================
-2026-09-12 01:16:40.950 | INFO | evaluate_triad |  runRAGtriadEval | 1    | Sim: 0.37 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.950 | INFO | evaluate_triad |  runRAGtriadEval | 2    | Sim: 0.25 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.950 | INFO | evaluate_triad |  runRAGtriadEval | 3    | Sim: 0.33 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.950 | INFO | evaluate_triad |  runRAGtriadEval | 4    | Sim: 0.09 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.950 | INFO | evaluate_triad |  runRAGtriadEval | 5    | Sim: -0.00 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.950 | INFO | evaluate_triad |  runRAGtriadEval | 6    | Sim: -0.02 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.958 | INFO | evaluate_triad |  runRAGtriadEval | 7    | Sim: 0.22 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.959 | INFO | evaluate_triad |  runRAGtriadEval | 8    | Sim: 0.21 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.959 | INFO | evaluate_triad |  runRAGtriadEval | 9    | Sim: 0.32 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.959 | INFO | evaluate_triad |  runRAGtriadEval | 10   | Sim: 0.01 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.959 | INFO | evaluate_triad |  runRAGtriadEval | 11   | Sim: 0.10 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.959 | INFO | evaluate_triad |  runRAGtriadEval | 12   | Sim: 0.40 | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.959 | INFO | evaluate_triad |  runRAGtriadEval | 13   | Sim: -0.34 | Intent: status_check | CR: 0.20 | GR: 0.00 | AR: 1.00
-2026-09-12 01:16:40.967 | INFO | evaluate_triad |  runRAGtriadEval | 14   | Sim: -0.12 | Intent: status_check | CR: 0.20 | GR: 0.00 | AR: 1.00
-2026-09-12 01:16:40.967 | INFO | evaluate_triad |  runRAGtriadEval | 15   | Sim: 0.14 | Intent: status_check | CR: 0.20 | GR: 0.00 | AR: 1.00
-2026-09-12 01:16:40.969 | INFO | evaluate_triad |  runRAGtriadEval | 16   | Sim: -0.75 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.971 | INFO | evaluate_triad |  runRAGtriadEval | 17   | Sim: -0.51 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.971 | INFO | evaluate_triad |  runRAGtriadEval | 18   | Sim: -0.24 | Intent: status_check | CR: 1.00 | GR: 0.00 | AR: 0.00
-2026-09-12 01:16:40.971 | INFO | evaluate_triad |  runRAGtriadEval | 19   | Sim: -0.14 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.971 | INFO | evaluate_triad |  runRAGtriadEval | 20   | Sim: -0.16 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.971 | INFO | evaluate_triad |  runRAGtriadEval | 21   | Sim: -0.13 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.971 | INFO | evaluate_triad |  runRAGtriadEval | 22   | Sim: -0.65 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.983 | INFO | evaluate_triad |  runRAGtriadEval | 23   | Sim: -0.50 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.984 | INFO | evaluate_triad |  runRAGtriadEval | 24   | Sim: -0.58 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.984 | INFO | evaluate_triad |  runRAGtriadEval | 25   | Sim: -0.44 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.984 | INFO | evaluate_triad |  runRAGtriadEval | 26   | Sim: -0.79 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.984 | INFO | evaluate_triad |  runRAGtriadEval | 27   | Sim: -0.81 | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:16:40.984 | INFO | evaluate_triad |  runRAGtriadEval | ==========================================================================================
-2026-09-12 01:16:40.984 | INFO | evaluate_triad |  runRAGtriadEval | 📊 === FINAL AGGREGATE SYSTEM METRICS SCORECARD ===
-2026-09-12 01:16:40.984 | INFO | evaluate_triad |  runRAGtriadEval | Average Context Relevance: 0.91
-2026-09-12 01:16:40.984 | INFO | evaluate_triad |  runRAGtriadEval | Average Groundedness:      0.85
-2026-09-12 01:16:40.984 | INFO | evaluate_triad |  runRAGtriadEval | Average Answer Relevance:  0.96
-2026-09-12 01:16:40.984 | INFO | evaluate_triad |  runRAGtriadEval | ===================================================
-2026-09-12 01:23:08.334 | INFO | evaluate_triad |  runRAGtriadEval | === Initializing Task 13: 27-Query RAG Triad Evaluation Suite ===
-2026-09-12 01:23:09.482 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:09.498 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:09.498 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:09.633 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.3704
-2026-09-12 01:23:09.633 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:23:09.649 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:10.099 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:10.115 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:10.115 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:10.269 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.2526
-2026-09-12 01:23:10.269 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:23:10.269 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:10.590 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:10.590 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:10.606 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:10.721 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.3269
-2026-09-12 01:23:10.721 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:23:10.721 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:11.088 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:11.088 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:11.088 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:11.221 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.0947
-2026-09-12 01:23:11.221 | INFO | graph |  rag_node | Highest Similarity 0.0947 below critical threshold (0.15). Triggering fallback.
-2026-09-12 01:23:11.221 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:11.540 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:11.540 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:11.540 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:11.915 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: -0.0025
-2026-09-12 01:23:11.923 | INFO | graph |  rag_node | Highest Similarity -0.0025 below critical threshold (0.15). Triggering fallback.
-2026-09-12 01:23:11.926 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:12.198 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:12.198 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:12.214 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:12.616 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:12.616 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:12.616 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:12.753 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.2234
-2026-09-12 01:23:12.753 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:23:12.753 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:13.102 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:13.102 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:13.102 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:13.256 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.206
-2026-09-12 01:23:13.256 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:23:13.267 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:13.697 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:13.697 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:13.712 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:13.804 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.3244
-2026-09-12 01:23:13.804 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:23:13.804 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:14.121 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:14.121 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:14.121 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:14.205 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.007
-2026-09-12 01:23:14.205 | INFO | graph |  rag_node | Highest Similarity 0.007 below critical threshold (0.15). Triggering fallback.
-2026-09-12 01:23:14.205 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:14.560 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:14.560 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:14.576 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:14.851 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.1031
-2026-09-12 01:23:14.870 | INFO | graph |  rag_node | Highest Similarity 0.1031 below critical threshold (0.15). Triggering fallback.
-2026-09-12 01:23:14.870 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:15.159 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:15.159 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:15.166 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
-2026-09-12 01:23:15.280 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.3981
-2026-09-12 01:23:15.280 | INFO | graph |  rag_node | Success: Retrieved 3 discrete chunks from sentence collection.
-2026-09-12 01:23:15.280 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:15.688 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:15.688 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:15.688 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 01:23:16.217 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:16.630 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:16.630 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:16.630 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 01:23:17.091 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:17.383 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:17.383 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:17.383 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 01:23:17.853 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:18.150 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:18.150 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:18.166 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:18.716 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:18.716 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:18.716 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:19.111 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:19.127 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:19.127 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
-2026-09-12 01:23:19.172 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:19.639 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:19.639 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:19.639 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:20.081 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:20.081 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:20.081 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:20.493 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:20.493 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:20.493 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:20.880 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:20.880 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:20.895 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:21.269 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:21.269 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:21.269 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:21.740 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:21.740 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:21.740 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:22.264 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:22.267 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:22.270 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:22.729 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:22.729 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:22.729 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:23.914 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
-2026-09-12 01:23:23.914 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
-2026-09-12 01:23:23.914 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | ==========================================================================================
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | IDX  | SIMILARITY | RESOLVED INT | CONTEXT REL | GROUNDED | ANSWER REL
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | ==========================================================================================
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | 1    | Sim: 0.37    | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | 2    | Sim: 0.25    | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | 3    | Sim: 0.33    | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | 4    | Sim: 0.09    | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | 5    | Sim: -0.00   | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | 6    | Sim: -0.02   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | 7    | Sim: 0.22    | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | 8    | Sim: 0.21    | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.409 | INFO | evaluate_triad |  runRAGtriadEval | 9    | Sim: 0.32    | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.424 | INFO | evaluate_triad |  runRAGtriadEval | 10   | Sim: 0.01    | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.424 | INFO | evaluate_triad |  runRAGtriadEval | 11   | Sim: 0.10    | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.424 | INFO | evaluate_triad |  runRAGtriadEval | 12   | Sim: 0.40    | Intent: policy_rag   | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.424 | INFO | evaluate_triad |  runRAGtriadEval | 13   | Sim: -0.34   | Intent: status_check | CR: 0.20 | GR: 0.00 | AR: 1.00
-2026-09-12 01:23:24.424 | INFO | evaluate_triad |  runRAGtriadEval | 14   | Sim: -0.12   | Intent: status_check | CR: 0.20 | GR: 0.00 | AR: 1.00
-2026-09-12 01:23:24.431 | INFO | evaluate_triad |  runRAGtriadEval | 15   | Sim: 0.14    | Intent: status_check | CR: 0.20 | GR: 0.00 | AR: 1.00
-2026-09-12 01:23:24.431 | INFO | evaluate_triad |  runRAGtriadEval | 16   | Sim: -0.75   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.432 | INFO | evaluate_triad |  runRAGtriadEval | 17   | Sim: -0.51   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.432 | INFO | evaluate_triad |  runRAGtriadEval | 18   | Sim: -0.24   | Intent: status_check | CR: 1.00 | GR: 0.00 | AR: 0.00
-2026-09-12 01:23:24.434 | INFO | evaluate_triad |  runRAGtriadEval | 19   | Sim: -0.14   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.434 | INFO | evaluate_triad |  runRAGtriadEval | 20   | Sim: -0.16   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.434 | INFO | evaluate_triad |  runRAGtriadEval | 21   | Sim: -0.13   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.434 | INFO | evaluate_triad |  runRAGtriadEval | 22   | Sim: -0.65   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.434 | INFO | evaluate_triad |  runRAGtriadEval | 23   | Sim: -0.50   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.434 | INFO | evaluate_triad |  runRAGtriadEval | 24   | Sim: -0.58   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.434 | INFO | evaluate_triad |  runRAGtriadEval | 25   | Sim: -0.44   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.450 | INFO | evaluate_triad |  runRAGtriadEval | 26   | Sim: -0.79   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.450 | INFO | evaluate_triad |  runRAGtriadEval | 27   | Sim: -0.81   | Intent: out_of_scope | CR: 1.00 | GR: 1.00 | AR: 1.00
-2026-09-12 01:23:24.450 | INFO | evaluate_triad |  runRAGtriadEval | ==========================================================================================
-2026-09-12 01:23:24.450 | INFO | evaluate_triad |  runRAGtriadEval | 📊 === FINAL AGGREGATE SYSTEM METRICS SCORECARD ===
-2026-09-12 01:23:24.450 | INFO | evaluate_triad |  runRAGtriadEval | Average Context Relevance: 0.91
-2026-09-12 01:23:24.450 | INFO | evaluate_triad |  runRAGtriadEval | Average Groundedness:      0.85
-2026-09-12 01:23:24.450 | INFO | evaluate_triad |  runRAGtriadEval | Average Answer Relevance:  0.96
-2026-09-12 01:23:24.450 | INFO | evaluate_triad |  runRAGtriadEval | ===================================================
+2026-09-13 22:04:23.609 | INFO | test_resilience |  run_resilience_tests | 
+=== STARTING TEST 1: TRANSIENT RETRY ENGINE AUDIT ===
+2026-09-13 22:04:23.611 | INFO | test_resilience |  run_resilience_tests | Firing lookup status query to trigger backoff validation loops...
+2026-09-13 22:04:23.626 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-13 22:04:23.634 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-13 22:04:23.637 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-13 22:04:24.106 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-13 22:04:24.261 | INFO | test_resilience |  run_resilience_tests | [SUCCESS] Graph auto-recovered using exponential backoff policy!
+2026-09-13 22:04:24.262 | INFO | test_resilience |  run_resilience_tests | Final Execution Output Payload: {'is_safe': True, 'resolved_intent': 'status_check', 'response_text': "Your application (LNK-1001) is currently tracking as 'Submitted'. Recency and fraud markers output a risk profile index score of 0.07.", 'action_recommended': 'STANDARD_QUEUE'}
+2026-09-13 22:04:24.262 | INFO | test_resilience |  run_resilience_tests | 
+=== STARTING TEST 2: SQLITE CHECKPOINT SAVE & RESUME ===
+2026-09-13 22:04:24.263 | INFO | test_resilience |  run_resilience_tests | Compiling graph with explicit run-time interruption after 'router' node...
+2026-09-13 22:04:24.278 | INFO | test_resilience |  run_resilience_tests | Executing initial pipeline flow layers until auto-paused...
+2026-09-13 22:04:24.306 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-13 22:04:24.310 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['guardrail']
+2026-09-13 22:04:24.310 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-13 22:04:24.551 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['router']
+2026-09-13 22:04:24.552 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['__interrupt__']
+2026-09-13 22:04:24.553 | INFO | test_resilience |  run_resilience_tests | !!! GRAPH AUTOMATICALLY PAUSED BY CHECKPOINTER AFTER ROUTER !!!
+2026-09-13 22:04:24.553 | INFO | test_resilience |  run_resilience_tests | Simulating system recovery window... Waiting 2 seconds.
+2026-09-13 22:04:26.555 | INFO | test_resilience |  run_resilience_tests | Resuming execution thread ID 'checkpoint_session_202' from data/checkpoints.sqlite...
+2026-09-13 22:04:26.557 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-13 22:04:27.366 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.1209
+2026-09-13 22:04:27.366 | INFO | graph |  rag_node | Highest Similarity 0.1209 below critical threshold (0.15). Triggering fallback.
+2026-09-13 22:04:27.369 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-13 22:04:27.517 | INFO | test_resilience |  run_resilience_tests | [CHECKPOINT SUCCESS] Pipeline completed run without re-executing initial nodes!
+2026-09-13 22:04:27.517 | INFO | test_resilience |  run_resilience_tests | Final Resumed Result Payload: {'is_safe': True, 'resolved_intent': 'policy_rag', 'response_text': 'I am sorry, but the internal policy guidelines do not contain enough parameter metrics to answer this request.', 'action_recommended': 'STANDARD_QUEUE'}
+2026-09-13 22:05:19.724 | INFO | test_resilience |  run_resilience_tests | === STARTING TEST 1: TRANSIENT RETRY ENGINE AUDIT ===
+2026-09-13 22:05:19.724 | INFO | test_resilience |  run_resilience_tests | Firing lookup status query to trigger backoff validation loops...
+2026-09-13 22:05:19.736 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-13 22:05:19.742 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-13 22:05:19.745 | INFO | graph |  lookup_node | --- Entering Node: [lookup_node] ---
+2026-09-13 22:05:20.221 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-13 22:05:20.408 | INFO | test_resilience |  run_resilience_tests | [SUCCESS] Graph auto-recovered using exponential backoff policy!
+2026-09-13 22:05:20.408 | INFO | test_resilience |  run_resilience_tests | Final Execution Output Payload: {'is_safe': True, 'resolved_intent': 'status_check', 'response_text': "Your application (LNK-1001) is currently tracking as 'Submitted'. Recency and fraud markers output a risk profile index score of 0.07.", 'action_recommended': 'STANDARD_QUEUE'}
+2026-09-13 22:05:20.408 | INFO | test_resilience |  run_resilience_tests | === STARTING TEST 2: SQLITE CHECKPOINT SAVE & RESUME ===
+2026-09-13 22:05:20.409 | INFO | test_resilience |  run_resilience_tests | Compiling graph with explicit run-time interruption after 'router' node...
+2026-09-13 22:05:20.428 | INFO | test_resilience |  run_resilience_tests | Executing initial pipeline flow layers until auto-paused...
+2026-09-13 22:05:20.453 | INFO | graph |  guardrail_node | --- Entering Node: [guardrail_node] ---
+2026-09-13 22:05:20.454 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['guardrail']
+2026-09-13 22:05:20.455 | INFO | graph |  router_node | --- Entering Node: [router_node] ---
+2026-09-13 22:05:20.698 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['router']
+2026-09-13 22:05:20.699 | INFO | test_resilience |  run_resilience_tests | Step executed and cached to checkpoints.sqlite: ['__interrupt__']
+2026-09-13 22:05:20.700 | INFO | test_resilience |  run_resilience_tests | !!! GRAPH AUTOMATICALLY PAUSED BY CHECKPOINTER AFTER ROUTER !!!
+2026-09-13 22:05:20.700 | INFO | test_resilience |  run_resilience_tests | Simulating system recovery window... Waiting 2 seconds.
+2026-09-13 22:05:22.702 | INFO | test_resilience |  run_resilience_tests | Resuming execution thread ID 'checkpoint_session_202' from data/checkpoints.sqlite...
+2026-09-13 22:05:22.705 | INFO | graph |  rag_node | --- Entering Node: [rag_node] ---
+2026-09-13 22:05:23.606 | INFO | graph |  rag_node | ChromaDB Query Cosine Similarity Score Evaluated: 0.1209
+2026-09-13 22:05:23.607 | INFO | graph |  rag_node | Highest Similarity 0.1209 below critical threshold (0.15). Triggering fallback.
+2026-09-13 22:05:23.609 | INFO | graph |  generator_node | --- Entering Node: [generator_node] ---
+2026-09-13 22:05:23.785 | INFO | test_resilience |  run_resilience_tests | [CHECKPOINT SUCCESS] Pipeline completed run without re-executing initial nodes!
+2026-09-13 22:05:23.786 | INFO | test_resilience |  run_resilience_tests | Final Resumed Result Payload: {'is_safe': True, 'resolved_intent': 'policy_rag', 'response_text': 'I am sorry, but the internal policy guidelines do not contain enough parameter metrics to answer this request.', 'action_recommended': 'STANDARD_QUEUE'}
